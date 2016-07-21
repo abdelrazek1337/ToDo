@@ -1,0 +1,249 @@
+/*
+    QuickNote jQuery Plugin
+    Copyright 2014 Pantuts (http://pantuts.com)
+    License: GNU GPLv3
+    URL: https://github.com/pantuts/QuickNote-jQuery-Plugin/
+    Version 1.1
+    Changelog:
+        Added wrapping text
+        Added close
+ */
+
+
+*,
+:before,
+:after
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+/* container dark */
+.qn_container
+{
+    position: relative;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    overflow-y: auto;
+    width: 650px;
+    max-height: 100%;
+    margin-right: 5px;
+    margin: auto;
+    
+    padding: 5px;
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+    
+}
+/* end container */
+
+/* show/hide */
+#qn_sh
+{
+    position: relative;
+    
+}
+#qn_sh span
+{
+    font-family: 'tahoma';
+    font-size: 16px;
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2px 0;
+    color: #dbdbdb;
+}
+
+#qn_sh span:hover
+{
+    cursor: pointer;
+}
+/* end show/hide */
+
+/* notes container */
+#notes
+{
+    position: static;
+    overflow: hidden;
+    width: auto;
+    margin: auto;
+    text-align: center;
+}
+
+/* end notes container */
+
+/* notes */
+#notes > span {
+    border: 1px solid #3EC1D3;
+    border-left: 6px solid #3EC1D3;
+}
+
+#notes > span,
+#notes p
+{
+
+    font-family: 'tahoma';
+    right: 0;
+    display: inline-block;
+    text-align: left;
+    
+    
+}
+#notes p,
+#notes p input
+{
+    font-size: .9em;
+    width: 100%;
+}
+#notes p
+{
+    margin: 5px auto 0 auto;
+    /*padding: 2px;*/
+}
+#notes p input
+{
+    width: 100%;
+    color: #6d6d6d;
+    box-sizing: border-box;
+    border: 2px solid #97e8fc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../../media/image/icon.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#notes p input:focus
+{
+    border-color: #97e8fc;
+    box-shadow: 0;
+}
+
+#notes p input {
+    padding-left: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #3EC1D3;
+}
+
+.quicknote,
+#notes p input
+{
+    position: relative;
+    height: auto;
+    padding-bottom: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+.quicknote,
+#notes p input span {
+    padding-left: 7px;
+}
+
+.quicknote
+{
+    font-size: .8em;
+    position: relative;
+    overflow: auto;
+    max-width: 100%;
+    margin: 5px 0;
+    margin-right: 0;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: #1e5866;
+    background-color: white;
+}
+.quicknote-bword {
+    word-break: break-all !important;
+}
+.quicknote:first-child
+{
+    margin-top: 0;
+}
+.close:before
+{
+    content: 'Done';
+}
+.close
+{
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    float: right;
+    margin-left: 10px;
+    padding: 0 3px;
+    color: #000;
+}
+
+.close:hover
+{
+    cursor: pointer;
+}
+
+/* share */
+
+.share:before
+{
+    content: 'Share';
+}
+.share
+{
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    margin-top: 0;
+    float: right;
+    margin-left: 20px;
+    padding: 0 3px;
+    color: #000;
+}
+
+.share:hover
+{
+    cursor: pointer;
+}
+
+/* end notes */
+
+/* container light */
+.qn_container_light
+{
+    border: 1px solid #ddd;
+    background: #EFEFEF;
+}
+/* end container light */
+
+/* show/hide */
+.qn_container_light #qn_sh span
+{
+    color: #737373;
+}
+/* end show/hide */
+
+/* notes light */
+.qn_container_light #notes span
+{
+    color: #2da68f;
+    border: 1px solid #97e8fc;
+    background: #7AF4DC;
+}
+.qn_container_light #notes input {
+    background: #F7F7F7;
+}
+/* end notes light */

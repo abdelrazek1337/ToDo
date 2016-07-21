@@ -1,0 +1,164 @@
+body {
+    background-color: white;
+}
+
+.container {
+    width: 1120px;
+    margin: auto;
+}
+
+.header .navbar {
+    background-color:#3EC1D3;
+    color: white;
+    overflow: hidden;
+}
+
+.header .navbar h1 {
+    float: left;
+    margin: 5px;
+    color: white;
+}
+
+.header .navbar ul {
+    list-style: none;
+    float: right;
+    padding-left: 0;
+    font-family: 'tahoma';
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5px;
+    color: #00ADB5;
+}
+
+.header .navbar ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .navbar ul li {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 20px;
+    
+    
+}
+
+.profile {
+    background-color: #e7ebed;
+    height: 300px;
+    
+}
+
+.profile .container .user-info {
+    margin: auto;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'tahoma';
+}
+
+.footer {
+    background-color: #3EC1D3;
+    color: white;
+    margin-top: 250px;
+    height: 350px;
+}
+
+
+.footer .container .list-1 {
+    text-align: center;
+
+}
+
+.footer .container .list-1 .list {
+    list-style: none;
+    font-family: 'tahoma';
+    font-size: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 70px;
+    
+}
+
+.footer .container .list-1 .list ul li {
+    font-family: 'tahoma';
+    font-size: 18px;
+    margin-top: 15px;
+    list-style: none;
+    margin-left: -50px;
+    
+}
+
+.copy {
+    background-color: #252A34;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+.copy .container p {
+    font-family: 'tahoma';
+    margin: 4px;
+}
+
+.copy .container p a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

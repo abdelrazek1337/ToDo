@@ -1,0 +1,297 @@
+body {
+    
+}
+
+.container {
+    width: 1120px;
+    margin: auto;
+    
+}
+
+.navbar {
+    background-color:#3EC1D3;
+    color: white;
+    height: 50px;
+}
+
+.navbar h1 {
+    float: left;
+    margin: 5px;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+    padding-left: 0;
+    font-family: 'tahoma';
+    font-size: 20px;
+    margin: 0;
+    margin-top: 5px;
+    color: #00ADB5;
+}
+
+.navbar ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 20px;
+    
+}
+
+.mainnote {
+    background-image: url("../../media/image/bg.jpg");
+    height: 593px;
+    
+}
+
+.mainnote .container {
+    margin: auto;
+    text-align: center;
+    height: 593px;
+}
+
+/*
+.slider {
+    
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 15px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.slider p {
+    font-family: 'tahoma';
+    font-size: 20px;
+    color: dimgray;
+    text-align: center;
+}
+
+
+
+.duty {
+    background-color: #e7ebed;
+    height: 310px;
+    
+}
+
+.duty .container h2 {
+    font-family: 'tahoma';
+    padding-top: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 105px;
+    color: #4b4b4c;
+    
+}
+
+.duty .container .feat {
+    float: left;
+    margin-right: 20%;
+    margin-left: 70px;
+    margin-top: 5px;
+    font-family: 'tahoma';
+    font-size: 18px;
+    color: #4b4b4c;
+    display: inline;
+}
+
+.duty .container p {
+    display: block;
+    color: dimgray;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+.header .container .task img {
+    height: 350px;
+    width: 350px;
+    float: left;
+    margin-top: 50px;
+    
+}
+
+.header .container .meza {
+    width: 500px;
+    margin-left: 400px;
+    text-align: center;
+    padding-top: 160px;
+    padding-left: 120px;
+}
+
+.header .container .meza h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'tahoma';
+    color: #4b4b4c;
+}
+
+.header .container .meza p {
+    color: dimgray;
+    font-family: 'tahoma';
+    font-size: 18px;
+}
+
+.header .bg img {
+    height: 600px;
+    width: 1349px;
+    padding-top: 150px;
+    position: absolute;
+    margin-left: -465px;
+    overflow: hidden;
+}
+
+.header .bg .container {
+    position: relative;
+}
+.header .bg .container .text {
+    width: 500px;
+    float: left;
+    padding-left: 60px;
+    position: absolute;
+    padding-top: 400px;
+    color: #4b4b4c;
+    
+}
+
+.header .bg .container .text h2 {
+    font-family: 'tahoma';
+    font-size: 30px;
+    color: #4b4b4c;
+    
+}
+
+.header .bg .container .text p {
+    font-family: 'tahoma';
+    font-size: 19px;
+    color: #4b4b4c;
+}
+
+.header .container .mytasktext {
+    margin-top: 1000px;
+
+    width: 500px;
+    float: left;
+    position: absolute;
+    color: #4b4b4c;
+}
+
+.header .container .mytasktext h2 {
+    font-size: 30px;
+    font-family: 'tahoma';
+}
+
+.header .container .mytasktext p {
+    font-size: 18px;
+    font-family: 'tahoma';
+}
+
+.header .container .mytaskimg {
+    margin-top: 850px;
+    width: 500px;
+    float: right;
+    position: absolute;
+    padding-left: 600px;
+}
+
+.footer {
+    background-color: #537780;
+    color: white;
+    margin-top: 1500px;
+    height: 350px;
+}
+
+
+.footer .container .list-1 {
+    text-align: center;
+
+}
+
+.footer .container .list-1 .list {
+    list-style: none;
+    font-family: 'tahoma';
+    font-size: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    margin-right: 70px;
+    
+}
+
+.footer .container .list-1 .list ul li {
+    font-family: 'tahoma';
+    font-size: 18px;
+    margin-top: 15px;
+    list-style: none;
+    margin-left: -50px;
+    
+}
+
+.copy {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+.copy .container p {
+    font-family: 'tahoma';
+    margin: 4px;
+}
+
+.copy .container p a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+*/
+
+
+
+
+
+
+
+
+
